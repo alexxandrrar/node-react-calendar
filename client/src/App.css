@@ -4,9 +4,24 @@
   width: 40vw;
 }
 
+.rdp {
+  --rdp-cell-size: 40px;
+  --rdp-accent-color: #ffd942;
+  --rdp-background-color: #ffd9427b;
+}
+
+.rdp-head_cell{
+  color: #838181cd 
+}
+
+.rdp-day_today{
+  color:#ffdf5d
+}
 
 .container{
-  background-color: #fff;
+  background-color: #29323f;
+  font-family: 'Dosis', sans-serif;
+  color: #fff;
   display: flex;
 
   border-radius: 15px;
