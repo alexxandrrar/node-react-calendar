@@ -17,15 +17,3 @@
 .rdp-day_today{
   color:#ffdf5d
 }
-
-.container{
-  background-color: #29323f;
-  font-family: 'Dosis', sans-serif;
-  color: #fff;
-  display: flex;
-
-  border-radius: 15px;
-  padding: 5px;
-  margin-top: 20vh;
-  box-shadow: 10px 12px 11px -8px rgba(31,29,31,0.92);
-}
