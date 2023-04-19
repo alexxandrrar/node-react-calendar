@@ -4,13 +4,16 @@
   width: 40vw;
 }
 
+.rdp {
+  --rdp-cell-size: 40px;
+  --rdp-accent-color: #ffd942;
+  --rdp-background-color: #ffd9427b;
+}
 
-.container{
-  background-color: #fff;
-  display: flex;
+.rdp-head_cell{
+  color: #838181cd 
+}
 
-  border-radius: 15px;
-  padding: 5px;
-  margin-top: 20vh;
-  box-shadow: 10px 12px 11px -8px rgba(31,29,31,0.92);
+.rdp-day_today{
+  color:#ffdf5d
 }

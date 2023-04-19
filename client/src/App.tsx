@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { DateContext } from './contexts/DateContext';
 import { Calendar } from './component/Calendar/Calendar';
-import { CalendarInformation } from './component/CalendarInformation/CalendarInformation';
 
 import 'react-day-picker/dist/style.css';
 import './App.css';
@@ -17,10 +16,7 @@ function App() {
       selectedDay, setSelectedDay, selectedStartTime, setSelectedStartTime, selectedEndTime, setSelectedEndTime, content, setContent
     }}>
       <div className="App">
-      <div className="container">
         <Calendar />
-        <CalendarInformation />
-      </div>
     </div>
     </DateContext.Provider>
   );
